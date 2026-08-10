@@ -4,3 +4,11 @@
 main:
   - title: Home
     url: /
+  - title: Work
+    url: /work/
+  - title: About
+    url: /about/
+  - title: Resume
+    url: /resume/
+  - title: Contact
+    url: /contact/
