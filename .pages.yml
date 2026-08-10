@@ -1,0 +1,188 @@
+# .pages.yml — Pages CMS config for a Jekyll site (Minimal Mistakes layout conventions)
+# Place at the repository root, on the same branch Pages builds from.
+# Reference: https://pagescms.org/docs/configuration/
+
+# ---------------------------------------------------------------------------
+# MEDIA
+# `input` is where files land in the repo. `output` is the path written into
+# your markdown. If your site is a PROJECT page (username.github.io/sitename),
+# change output to "/sitename/assets/images" or images will 404 in production.
+# ---------------------------------------------------------------------------
+media:
+  - name: images
+    label: Images
+    input: assets/images
+    output: /assets/images
+    categories: [image]
+    rename: safe
+
+# ---------------------------------------------------------------------------
+# COMPONENTS
+# Shared field groups, referenced below with `component:` instead of `type:`.
+# ---------------------------------------------------------------------------
+components:
+  header:
+    type: object
+    label: Header image
+    description: Optional banner shown at the top of the page.
+    fields:
+      - name: overlay_image
+        label: Banner image
+        type: image
+        options:
+          media: images
+      - name: overlay_filter
+        label: Darken overlay
+        type: string
+        description: "A value from 0 to 1, e.g. 0.4. Leave blank for none."
+      - name: caption
+        label: Caption / credit
+        type: string
+      - name: teaser
+        label: Thumbnail
+        type: image
+        description: Used in listings and social previews.
+        options:
+          media: images
+
+  gallery:
+    type: object
+    label: Image
+    fields:
+      - name: image_path
+        label: Image
+        type: image
+        options:
+          media: images
+      - name: alt
+        label: Alt text
+        type: string
+        required: true
+      - name: title
+        label: Caption
+        type: string
+
+# ---------------------------------------------------------------------------
+# CONTENT
+# ---------------------------------------------------------------------------
+content:
+  - name: pages
+    label: Pages
+    type: collection
+    path: _pages
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    exclude: ["README.md"]
+    view:
+      primary: title
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+
+      - name: permalink
+        label: URL path
+        type: string
+        required: true
+        description: "Leading and trailing slash, e.g. /about/"
+        pattern:
+          regex: "^/([a-z0-9-]+/)*$"
+          message: "Use lowercase words and slashes, e.g. /about/ or /work/studio/"
+
+      - name: layout
+        label: Layout
+        type: select
+        options:
+          values: [single, splash, archive]
+        description: "single = standard page, splash = full-width hero, archive = list"
+
+      - name: excerpt
+        label: Summary
+        type: text
+        description: Shown in listings and used as the meta description.
+
+      - name: toc
+        label: Show table of contents
+        type: boolean
+
+      - name: header
+        component: header
+
+      - name: gallery
+        label: Gallery
+        component: gallery
+        list: true
+
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          rename: safe
+          switcher: true
+
+  - name: posts
+    label: Posts
+    type: collection
+    path: _posts
+    format: yaml-frontmatter
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      primary: title
+      sort: date
+      order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+
+      - name: date
+        label: Date
+        type: date
+        required: true
+        options:
+          format: yyyy-MM-dd
+
+      - name: categories
+        label: Categories
+        type: string
+        list: true
+
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+
+      - name: header
+        component: header
+
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          rename: safe
+
+  - name: navigation
+    label: Menu
+    type: file
+    path: _data/navigation.yml
+    format: yaml
+    fields:
+      - name: main
+        label: Main menu
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Label
+            type: string
+            required: true
+          - name: url
+            label: Link
+            type: string
+            required: true
