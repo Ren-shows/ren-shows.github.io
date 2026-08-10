@@ -6,6 +6,10 @@ description: "The portfolio of Ren Shows"
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
 
+# Hide the RSS "Feed" link in the theme footer's Follow section.
+atom_feed:
+  hide: true
+
 # Project page: served at https://yassskitt.github.io/ren-portfolio/
 url: "https://yassskitt.github.io"
 baseurl: "/ren-portfolio"
