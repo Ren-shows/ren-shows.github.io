@@ -4,7 +4,7 @@
 title: Ren Shows
 description: "The portfolio of Ren Shows"
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: default
+minimal_mistakes_skin: catppuccin_mocha
 
 # Hide the RSS "Feed" link in the theme footer's Follow section.
 atom_feed:
