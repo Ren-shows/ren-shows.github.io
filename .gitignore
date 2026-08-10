@@ -1,0 +1,4 @@
+_plugins/
+taint_shim.rb
+_site/
+Gemfile.lock
