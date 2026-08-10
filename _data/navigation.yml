@@ -1,0 +1,6 @@
+# Main navigation menu — rendered in the masthead by Minimal Mistakes.
+# Managed via Pages CMS (see the `navigation` entry in .pages.yml).
+# URLs here are relative to the site root; Minimal Mistakes prepends the baseurl.
+main:
+  - title: Home
+    url: /

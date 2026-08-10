@@ -1,0 +1,37 @@
+# Jekyll configuration — Minimal Mistakes via remote theme (GitHub Pages compatible)
+# Docs: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+
+title: Ren Shows
+description: "The portfolio of Ren Shows"
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default
+
+# Project page: served at https://yassskitt.github.io/ren-portfolio/
+url: "https://yassskitt.github.io"
+baseurl: "/ren-portfolio"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-include-cache
+
+# Jekyll ignores underscore dirs by default; _pages must be included.
+include:
+  - _pages
+
+# Serve the site's pages and posts with sensible Minimal Mistakes defaults.
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      share: true

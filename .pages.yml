@@ -12,7 +12,7 @@ media:
   - name: images
     label: Images
     input: assets/images
-    output: /assets/images
+    output: /ren-portfolio/assets/images
     categories: [image]
     rename: safe
 
