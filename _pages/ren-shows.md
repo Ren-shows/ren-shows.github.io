@@ -3,7 +3,7 @@ title: Ren Shows
 permalink: /
 layout: single
 excerpt: My portfolio
-toc: false
+toc: true
 header:
   overlay_image: /ren-portfolio/assets/images/d9bcc58e6cfc1d716ca6480997f407c3.jpeg
   overlay_filter: "0.4"
