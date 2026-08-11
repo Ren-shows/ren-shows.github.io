@@ -10,9 +10,9 @@ minimal_mistakes_skin: catppuccin_mocha
 atom_feed:
   hide: true
 
-# Project page: served at https://yassskitt.github.io/ren-portfolio/
-url: "https://yassskitt.github.io"
-baseurl: "/ren-portfolio"
+# Project page: served at https://ren-shows.github.io/
+url: "https://ren-shows.github.io"
+baseurl: "/"
 
 # Build settings
 markdown: kramdown
