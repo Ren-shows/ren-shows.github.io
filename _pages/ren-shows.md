@@ -1,7 +1,7 @@
 ---
 title: Ren Shows
 permalink: /
-layout: splash
+layout: single
 excerpt: My portfolio
 toc: false
 header:
