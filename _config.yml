@@ -6,6 +6,14 @@ description: "The portfolio of Ren Shows"
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: catppuccin_mocha
 
+media:
+  - name: images
+    label: Images
+    input: assets/images
+    output: /assets/images
+    categories: [image]
+    rename: safe
+    
 # Hide the RSS "Feed" link in the theme footer's Follow section.
 atom_feed:
   hide: true
