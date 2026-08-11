@@ -5,7 +5,7 @@ layout: single
 excerpt: My portfolio
 toc: true
 header:
-  overlay_image: /ren-portfolio/assets/images/d9bcc58e6cfc1d716ca6480997f407c3.jpeg
+  overlay_image: /ren-portfolio/assets/images/731c795c728636efd6424fc8f567e7ea.jpeg
   overlay_filter: "0.4"
 gallery:
   - image_path: /ren-portfolio/assets/images/731c795c728636efd6424fc8f567e7ea.jpeg
