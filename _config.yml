@@ -31,6 +31,13 @@ plugins:
 include:
   - _pages
 
+# Collections. `productions` holds one document per show; each is output as its
+# own page under /productions/<name>/. The listing lives at /productions/.
+collections:
+  productions:
+    output: true
+    permalink: /productions/:path/
+
 # Serve the site's pages and posts with sensible Minimal Mistakes defaults.
 defaults:
   - scope:
@@ -47,3 +54,10 @@ defaults:
       author_profile: false
       read_time: true
       share: true
+  - scope:
+      path: ""
+      type: productions
+    values:
+      layout: production
+      author_profile: false
+      share: false

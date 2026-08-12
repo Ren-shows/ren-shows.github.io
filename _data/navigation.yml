@@ -2,13 +2,7 @@
 # Managed via Pages CMS (see the `navigation` entry in .pages.yml).
 # URLs here are relative to the site root; Minimal Mistakes prepends the baseurl.
 main:
-  - title: Home
-    url: /
-  - title: Work
-    url: /work/
-  - title: About
-    url: /about/
+  - title: Productions
+    url: /productions/
   - title: Resume
     url: /resume/
-  - title: Contact
-    url: /contact/

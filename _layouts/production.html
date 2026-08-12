@@ -1,0 +1,15 @@
+---
+layout: single
+---
+
+{{ content }}
+
+<style>
+  /* Production pages: drop the prev/next pager and the published/updated date. */
+  .page__date { display: none; }
+  .pagination { display: none; }
+</style>
+
+<p class="production-back">
+  <a href="{{ '/productions/' | relative_url }}">&larr; Back to Productions</a>
+</p>

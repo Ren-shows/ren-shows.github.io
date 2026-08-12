@@ -123,6 +123,51 @@ content:
           rename: safe
           switcher: true
 
+  - name: productions
+    label: Productions
+    type: collection
+    path: _productions
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      primary: title
+      sort: date
+      order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+
+      - name: date
+        label: Date
+        type: date
+        description: Used to order shows (newest first).
+        options:
+          format: yyyy-MM-dd
+
+      - name: excerpt
+        label: Summary
+        type: text
+        description: One-line description shown in the Productions listing.
+
+      - name: header
+        component: header
+
+      - name: gallery
+        label: Gallery
+        component: gallery
+        list: true
+
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          rename: safe
+          switcher: true
+
   - name: posts
     label: Posts
     type: collection
