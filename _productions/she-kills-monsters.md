@@ -6,6 +6,7 @@ header:
 gallery:
   - image_path: /assets/images/2024-03-she-kills-monsters/IMG_4346.jpg
   - image_path: /assets/images/2024-03-she-kills-monsters/IMG_4348.jpg
+  - {}
 ---
 **Role:** Placeholder · **Venue:** Placeholder Theatre · **Year:** YYYY
 
