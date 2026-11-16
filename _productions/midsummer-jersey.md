@@ -1,6 +1,8 @@
 ---
 title: Midsummer Jersey
 date: 2023-03-01
+header:
+  teaser: /assets/images/2023-03-midsummer-jersey/IMG_3323.jpg
 gallery:
   - image_path: /assets/images/2023-03-midsummer-jersey/ DSC_1649.jpg
     alt: Beg
@@ -14,4 +16,5 @@ gallery:
     alt: pray
   - image_path: /assets/images/2023-03-midsummer-jersey/DSC_2015.jpg
     alt: R&J
+  - {}
 ---
