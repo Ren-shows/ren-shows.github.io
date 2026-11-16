@@ -3,7 +3,7 @@ title: Bye Bye Birdie
 date: 2022-11-01
 excerpt: A short one-line description of this show, its venue, and Ren's role.
 header:
-  teaser: /assets/images/2022-11-bye-bye-birdie/DSC_7227.jpeg
+  teaser: /assets/images/2022-11-bye-bye-birdie/DSC_7319.jpeg
 gallery:
   - image_path: /assets/images/2022-11-bye-bye-birdie/DSC_7227.jpeg
     alt: Production One — scene photo
