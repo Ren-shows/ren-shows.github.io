@@ -16,7 +16,7 @@ gallery:
   - image_path: /assets/images/2023-11-newsies/d9bcc58e6cfc1d716ca6480997f407c3.jpeg
     alt: Platform
 ---
-**Role:** Placeholder · **Venue:** Placeholder Theatre · **Year:** YYYY
+**Role:** Build Crew · **Venue:** Howard F. Horner Performing Arts Center · **Year:** 2023
 
 Replace this with a paragraph about the production — the concept, Ren's
 contribution, and any notable collaborators or press.
