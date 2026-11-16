@@ -19,7 +19,7 @@ atom_feed:
   hide: true
 
 # Project page: served at https://ren-shows.github.io/
-url: "https://renshowstech.org"
+url: "https://ren-shows.github.io/"
 baseurl: ""
 
 # Build settings
