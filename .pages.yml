@@ -57,7 +57,6 @@ components:
       - name: alt
         label: Alt text
         type: string
-        required: true
       - name: title
         label: Caption
         type: string
