@@ -3,3 +3,4 @@ taint_shim.rb
 _site/
 Gemfile.lock
 .DS_Store
+.ruby-version
