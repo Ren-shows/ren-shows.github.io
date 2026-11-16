@@ -21,6 +21,7 @@ gallery:
     alt: scene
   - image_path: /assets/images/2022-11-bye-bye-birdie/DSC_7563.jpeg
     alt: scene
+  - image_path: /assets/images/2022-11-bye-bye-birdie/IMG_20221120_151432.jpg
 ---
 **Role:** Placeholder · **Venue:** Placeholder Theatre · **Year:** 2025
 
