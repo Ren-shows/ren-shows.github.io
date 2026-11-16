@@ -12,7 +12,7 @@ gallery:
   - image_path: /assets/images/2025-11-legally-blonde/20251110_162111.jpg
   - image_path: /assets/images/2025-11-legally-blonde/Screenshot_20261116_142607_Maps~2.jpg
 ---
-**Role:** Placeholder · **Venue:** Placeholder Theatre · **Year:** YYYY
+**Role:** Assistant Technical Director/Stage Manager · **Venue:** Howard F. Horner Performing Arts Center · **Year:** 2025
 
 Replace this with a paragraph about the production — the concept, Ren's
 contribution, and any notable collaborators or press.
