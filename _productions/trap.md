@@ -5,6 +5,8 @@ excerpt: A short one-line description of this show, its venue, and Ren's role.
 header:
   teaser: /assets/images/2026-03-trap/MAR_7426.jpg
 gallery:
+  - image_path: /assets/images/2026-03-trap/IMG_20260313_191927_411.jpeg
+    alt: peak
   - image_path: /assets/images/2026-03-trap/MAR_7426.jpg
     alt: Production Two — scene photo
   - image_path: /assets/images/2026-03-trap/MAR_7728.jpg
@@ -14,8 +16,6 @@ gallery:
   - image_path: /assets/images/2026-03-trap/20260305_121715.jpg
     alt: scene
   - image_path: /assets/images/2026-03-trap/20260305_121741.jpg
-    alt: scene
-  - image_path: /assets/images/2026-03-trap/20260528_143033.jpg
     alt: scene
   - image_path: /assets/images/2026-03-trap/20260305121519.jpg
     alt: scene
