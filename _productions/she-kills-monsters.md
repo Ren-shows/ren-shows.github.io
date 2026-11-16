@@ -8,7 +8,7 @@ gallery:
   - image_path: /assets/images/2024-03-she-kills-monsters/IMG_4348.jpg
   - {}
 ---
-**Role:** Placeholder · **Venue:** Placeholder Theatre · **Year:** YYYY
+**Role:** Assistant Stage Manager · **Venue:** Howard F. Horner Performing Arts Center· **Year:** 2024
 
 Replace this with a paragraph about the production — the concept, Ren's
 contribution, and any notable collaborators or press.
