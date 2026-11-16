@@ -4,7 +4,7 @@ date: 2023-03-01
 header:
   teaser: /assets/images/2023-03-midsummer-jersey/IMG_3323.jpg
 gallery:
-  - image_path: /assets/images/2023-03-midsummer-jersey/ DSC_1649.jpg
+  - image_path: "/assets/images/2023-03-midsummer-jersey/ DSC_1649.jpg"
     alt: Beg
   - image_path: /assets/images/2023-03-midsummer-jersey/DSC_1562.jpg
     alt: donkey
@@ -21,3 +21,14 @@ gallery:
   - image_path: /assets/images/2023-03-midsummer-jersey/IMG_20230317_200402.jpg
   - image_path: /assets/images/2023-03-midsummer-jersey/IMG_20230317_200812.jpg
 ---
+
+**Role:** Placeholder · **Venue:** Placeholder Theatre · **Year:** YYYY
+
+Replace this with a paragraph about the production — the concept, Ren's
+contribution, and any notable collaborators or press.
+
+{% include gallery caption="Production photos." %}
+
+## About the show
+
+More copy about the work: process, direction, and outcomes.
