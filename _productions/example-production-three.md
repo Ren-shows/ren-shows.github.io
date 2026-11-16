@@ -1,22 +1,16 @@
 ---
-title: "Production Three"
+title: "Production Two"
 excerpt: "A short one-line description of this show, its venue, and Ren's role."
-date: 2024-11-01
+date: 2026-05-01
 header:
-  teaser: /assets/images/DSC_8201.jpeg
+  teaser: /assets/images/MAR_7687.jpg
 gallery:
-  - image_path: /assets/images/DSC_8201.jpeg
-    url: /assets/images/DSC_8201.jpeg
-    alt: "Production Three — scene photo"
-  - image_path: /assets/images/DSC_8312.jpeg
-    url: /assets/images/DSC_8312.jpeg
-    alt: "Production Three — scene photo"
-  - image_path: /assets/images/DSC_8452.jpeg
-    url: /assets/images/DSC_8452.jpeg
-    alt: "Production Three — scene photo"
+  - image_path: /assets/images/MAR_7687.jpg
+    url: /assets/images/MAR_7687.jpg
+    alt: "Production Two — scene photo"
 ---
 
-**Role:** Placeholder · **Venue:** Placeholder Theatre · **Year:** 2024
+**Role:** Placeholder · **Venue:** Placeholder Theatre · **Year:** 2026
 
 Replace this with a paragraph about the production — the concept, Ren's
 contribution, and any notable collaborators or press.
