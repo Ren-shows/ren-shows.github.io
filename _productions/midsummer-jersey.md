@@ -16,5 +16,8 @@ gallery:
     alt: pray
   - image_path: /assets/images/2023-03-midsummer-jersey/DSC_2015.jpg
     alt: R&J
-  - {}
+  - image_path: /assets/images/2023-03-midsummer-jersey/IMG_20230316_104023.jpg
+  - image_path: /assets/images/2023-03-midsummer-jersey/IMG_20230316_120504.jpg
+  - image_path: /assets/images/2023-03-midsummer-jersey/IMG_20230317_200402.jpg
+  - image_path: /assets/images/2023-03-midsummer-jersey/IMG_20230317_200812.jpg
 ---
