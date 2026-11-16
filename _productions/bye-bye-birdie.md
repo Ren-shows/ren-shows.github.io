@@ -21,8 +21,6 @@ gallery:
     alt: scene
   - image_path: /assets/images/DSC_7563.jpeg
     alt: scene
-  - image_path: /assets/images/DSC_8312.jpeg
-    alt: scene
 ---
 **Role:** Placeholder · **Venue:** Placeholder Theatre · **Year:** 2025
 
