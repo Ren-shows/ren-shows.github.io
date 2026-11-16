@@ -1,6 +1,6 @@
 ---
 title: Bye Bye Birdie
-date: 2025-06-01
+date: 2022-11-01
 excerpt: A short one-line description of this show, its venue, and Ren's role.
 header:
   teaser: /assets/images/2022-11-bye-bye-birdie/DSC_7227.jpeg
