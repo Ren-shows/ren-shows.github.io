@@ -18,7 +18,7 @@ gallery:
   - image_path: /assets/images/2026-05-untitled folder/MAR_7765.jpg
     alt: scene
 ---
-**Role:** Placeholder · **Venue:** Placeholder Theatre · **Year:** 2026
+**Role:** Designer/Stage Manager · **Venue:** Howard F. Horner Performing Arts Center · **Year:** 2026
 
 Replace this with a paragraph about the production — the concept, Ren's
 contribution, and any notable collaborators or press.
