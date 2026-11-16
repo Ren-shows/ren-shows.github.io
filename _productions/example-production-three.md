@@ -1,5 +1,5 @@
 ---
-title: Production Two
+title: So You Think You Can Date (One Act)
 date: 2026-05-01
 excerpt: A short one-line description of this show, its venue, and Ren's role.
 header:
