@@ -2,7 +2,7 @@
 title: Little Women
 date: 2025-03-01
 header:
-  teaser: /assets/images/2025-03-little-women/DSC_1119.jpeg
+  teaser: /assets/images/2025-03-little-women/DSC_1176.jpeg
 gallery:
   - image_path: /assets/images/2025-03-little-women/DSC_1176.jpeg
   - image_path: /assets/images/2025-03-little-women/DSC_1119.jpeg
