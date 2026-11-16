@@ -4,6 +4,7 @@ date: 2023-11-01
 excerpt: A short one-line description of this show, its venue, and Ren's role.
 header:
   overlay_image: /assets/images/2023-11-newsies/84fc40f0ce507c285a42cd0a8bfa10d9.jpeg
+  teaser: /assets/images/2023-11-newsies/84fc40f0ce507c285a42cd0a8bfa10d9.jpeg
 gallery:
   - image_path: /assets/images/2022-11-bye-bye-birdie/DSC_7227.jpeg
     alt: Production One — scene photo
