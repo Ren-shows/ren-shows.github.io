@@ -1,6 +1,6 @@
 ---
 title: Trap
-date: 2025-03-01
+date: 2026-03-01
 excerpt: A short one-line description of this show, its venue, and Ren's role.
 header:
   teaser: /assets/images/2026-03-trap/MAR_7426.jpg
