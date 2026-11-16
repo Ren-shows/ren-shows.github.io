@@ -1,18 +1,17 @@
 ---
-title: "Trap"
-excerpt: "A short one-line description of this show, its venue, and Ren's role."
+title: Trap
 date: 2025-03-01
+excerpt: A short one-line description of this show, its venue, and Ren's role.
 header:
   teaser: /assets/images/MAR_7426.jpg
 gallery:
   - image_path: /assets/images/MAR_7426.jpg
-    url: /assets/images/MAR_7426.jpg
-    alt: "Production Two — scene photo"
+    alt: Production Two — scene photo
   - image_path: /assets/images/MAR_7728.jpg
-    url: /assets/images/MAR_7728.jpg
-    alt: "Production Two — scene photo"
+    alt: Production Two — scene photo
+  - image_path: /assets/images/MAR_8137.jpg
+    alt: scene photo
 ---
-
 **Role:** Placeholder · **Venue:** Placeholder Theatre · **Year:** 2025
 
 Replace this with a paragraph about the production — the concept, Ren's
