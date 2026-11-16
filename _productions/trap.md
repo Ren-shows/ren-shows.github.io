@@ -11,6 +11,14 @@ gallery:
     alt: Production Two — scene photo
   - image_path: /assets/images/MAR_8137.jpg
     alt: scene photo
+  - image_path: /assets/images/trap/20260305_121715.jpg
+    alt: scene
+  - image_path: /assets/images/trap/20260305_121741.jpg
+    alt: scene
+  - image_path: /assets/images/trap/20260528_143033.jpg
+    alt: scene
+  - image_path: /assets/images/trap/20260305121519.jpg
+    alt: scene
 ---
 **Role:** Placeholder · **Venue:** Placeholder Theatre · **Year:** 2025
 
