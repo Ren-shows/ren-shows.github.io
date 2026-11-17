@@ -10,6 +10,17 @@ header:
   overlay_filter: "0.8"
 ---
 
+<div class="productions-grid">
+  {% assign productions = site.productions | sort: "date" | reverse %}
+  {% for post in productions %}
+    <a href="{{ post.url | relative_url }}">
+      <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title | escape }}">
+      <div class="production-title">{{ post.title }}</div>
+    </a>
+  {% endfor %}
+</div>
+
+
 <style>
   .wide .page {
     float: none;
@@ -44,13 +55,3 @@ header:
     font-size: 0.95rem;
   }
 </style>
-
-<div class="productions-grid">
-  {% assign productions = site.productions | sort: "date" | reverse %}
-  {% for post in productions %}
-    <a href="{{ post.url | relative_url }}">
-      <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title | escape }}">
-      <div class="production-title">{{ post.title }}</div>
-    </a>
-  {% endfor %}
-</div>
