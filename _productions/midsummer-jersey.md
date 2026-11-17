@@ -21,7 +21,7 @@ gallery:
   - image_path: /assets/images/2023-03-midsummer-jersey/IMG_20230317_200402.jpg
   - image_path: /assets/images/2023-03-midsummer-jersey/IMG_20230317_200812.jpg
 ---
-**Role:** Costume · **Venue:** Howard F. Horner Performing Arts Center · **Year:** 2023
+**Role:** Costume Crew · **Venue:** Howard F. Horner Performing Arts Center · **Year:** 2023
 
 Replace this with a paragraph about the production — the concept, Ren's
 contribution, and any notable collaborators or press.
