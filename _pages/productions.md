@@ -11,15 +11,12 @@ header:
 ---
 
 <style>
-  /* Wide layout still floats .page right at reduced width, leaving a gap on
-     the left. Reset it so the content is truly full-width and centered. */
   .wide .page {
     float: none;
     width: 100%;
     padding-right: 0;
   }
 
-  /* Two-across, edge-to-edge production gallery. */
   .productions-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
